@@ -1,7 +1,8 @@
 ### display:block/none
 ### visibility: visible/hidden
 
->- 共同点 二者都是显示影藏元素
+>- 共同点 
+-- 二者都是显示影藏元素
 >- 差异 
 >>- display 元素隐藏后
   - 不占用空间，
