@@ -25,6 +25,7 @@
 
 ### git 回滚代码
 >- 已git add 到暂存区的文件，直接 git restore --staged <file>
+  -  git restore --staged . 撤销所有的暂存文件
 >- 已 git commit，则直接 git revert commitId
 
 ### git commit -x
