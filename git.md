@@ -32,3 +32,10 @@
 >- -a 未git add 的文件，直接提交
 >- -m 添加提交信息
 >- --amend 修改之前提交信息，同时将之前的提交记录置为一次
+
+### git 撤销修改
+>- 未commit的文件
+>>- git reset --hard HEAD  撤销所有文件的修改
+>>- git checkout HEAD <file> 单个文件撤销
+>- commited
+>>- git revert commitId
