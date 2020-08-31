@@ -19,13 +19,13 @@
 
 #### git 文件状态
 >- Changes to be committed 暂存区，已git add 暂存区
->>- 可使用 git restore --staged <file> 取消暂存
+- >- 可使用 git restore --staged <file> 取消暂存
 >- Changes not staged for commit: 工作区，未git add 但已修改的时的状态
 >- Untracked files: 新建文件，
 
 ### git 回滚代码
 >- 已git add 到暂存区的文件，直接 git restore --staged <file>
-  -  git restore --staged . 撤销所有的暂存文件
+  -- git restore --staged . 撤销所有的暂存文件
 >- 已 git commit，则直接 git revert commitId
 
 ### git commit -x
