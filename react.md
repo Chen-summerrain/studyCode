@@ -1,2 +1,3 @@
 >- immutable data 数据持久化
->- PureRenderMixin 
+>- PureRenderMixin
+>- 受控组件
