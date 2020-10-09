@@ -1,4 +1,5 @@
 >- 浏览器点击回退/前进按钮,事件监听 window.addEventListener('popstate',callback)
+>- 监听浏览器hash变化 window.addEventListener('hashchange',fn)
 - h5 historyAPI 
 >- pushstate/replacestate/go/forward/back
 
