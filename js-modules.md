@@ -9,7 +9,9 @@
 >- IIFE模式/增强(匿名闭包)
 >- 立即调用闭包函数
 
-#### [链接]（https://javascript.ruanyifeng.com/nodejs/module.html）
+---
+> [Common & AMD 链接](https://javascript.ruanyifeng.com/nodejs/module.html)
+
 #### 正式规范
 ##### CommonJs 同步
 >- node.js 浏览器端
