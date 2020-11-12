@@ -39,3 +39,26 @@
  const arr = [3,4,5,1,8,12,6,7,11,9,20,1,2]
  bublingSort2(arr)
 ```
+
+### 选择排序（选最小或最大值）
+```
+  function selectionSort(arr=[]) {
+    var arr = JSON.parse(JSON.stringify(arr));
+    let len = arr.length,minIndex,a=0,flag;
+    for(let i=0;i<len-1;i++) {
+        minIndex = i;
+        for(let j=i+1;j<len;j++) {
+            a++
+            if(arr[j]<arr[minIndex]) {
+                minIndex = j;
+                flag=true
+            }
+        }
+        [arr[minIndex],arr[i]] = [arr[i],arr[minIndex]];
+        if(!flag) break;
+        console.log('arr',arr)
+    }
+    console.log('a',a)
+    return arr
+ }
+```
