@@ -1,2 +1,41 @@
 ### 冒泡排序
 #### 基础冒泡
+```
+  function bublingSort1 (arr=[]) {
+      var a =0,p=0,len=arr.length-1;
+      for(let i=0;i<len;i++) {
+          for(let j=0;j<len-i;j++) {
+              a++
+              if(arr[j]>arr[j+1]) {
+                  ([arr[j],arr[j+1]] = [arr[j+1],arr[j]])
+              }
+          }
+      }
+      console.log('bublingSort1 a=',a)
+      return arr
+  }
+```
+#### 冒泡排序优化
+>- 设置flag标志
+```
+
+  function bublingSort2 (arr=[]) {
+    var a =0,p=0,len=arr.length-1;
+    for(let i=0;i<len;i++) {
+        let flag;
+        for(let j=0;j<len-i;j++) {
+            a++
+            if(arr[j]>arr[j+1]) {
+                ([arr[j],arr[j+1]] = [arr[j+1],arr[j]])
+                flag=true
+            }
+        }
+        if(!flag) break;
+    }
+    console.log('bublingSort2 a==',a)
+    return arr
+
+ }
+ const arr = [3,4,5,1,8,12,6,7,11,9,20,1,2]
+ bublingSort2(arr)
+```
