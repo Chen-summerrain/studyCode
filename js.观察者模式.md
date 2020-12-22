@@ -1,3 +1,4 @@
+```
 class WX {
   constructor(topic) {
     this.topic = topic;
@@ -45,3 +46,4 @@ wxJS.addOb(Tom)
 wxJS.addOb(Jack)
 
 wxJS.pushArticles('原型')
+```
